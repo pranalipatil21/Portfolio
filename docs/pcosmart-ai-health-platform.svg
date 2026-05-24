@@ -1,0 +1,50 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101114"/>
+      <stop offset="1" stop-color="#1B1C22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="220" y1="120" x2="980" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7A45"/>
+      <stop offset="1" stop-color="#FFB36B"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="320" y1="170" x2="880" y2="530" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#252733"/>
+      <stop offset="1" stop-color="#161823"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" rx="40" fill="url(#bg)"/>
+  <circle cx="170" cy="160" r="92" fill="#FF7A45" fill-opacity="0.12"/>
+  <circle cx="1020" cy="560" r="130" fill="#FF7A45" fill-opacity="0.10"/>
+  <path d="M112 510C215 450 265 388 354 343C441 299 523 312 608 364C700 420 787 428 866 390C944 352 1005 286 1082 218" stroke="#FF7A45" stroke-opacity="0.16" stroke-width="14" stroke-linecap="round"/>
+  <rect x="250" y="120" width="700" height="460" rx="32" fill="url(#panel)" stroke="#2E313E" stroke-width="2"/>
+  <rect x="292" y="162" width="616" height="54" rx="16" fill="#1A1C26"/>
+  <circle cx="328" cy="189" r="8" fill="#FF7A45"/>
+  <circle cx="356" cy="189" r="8" fill="#4B4F63"/>
+  <circle cx="384" cy="189" r="8" fill="#4B4F63"/>
+  <rect x="310" y="246" width="250" height="230" rx="24" fill="#12141C" stroke="#2F3342" stroke-width="2"/>
+  <rect x="590" y="246" width="290" height="108" rx="24" fill="#12141C" stroke="#2F3342" stroke-width="2"/>
+  <rect x="590" y="368" width="290" height="108" rx="24" fill="#12141C" stroke="#2F3342" stroke-width="2"/>
+  <rect x="310" y="498" width="570" height="60" rx="18" fill="#12141C" stroke="#2F3342" stroke-width="2"/>
+  <path d="M355 411C382 346 411 316 443 316C476 316 492 352 508 370C526 388 542 372 554 352" stroke="url(#accent)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M355 411C382 346 411 316 443 316C476 316 492 352 508 370C526 388 542 372 554 352" stroke="#FFB36B" stroke-opacity="0.35" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="443" cy="316" r="12" fill="#FF7A45"/>
+  <circle cx="508" cy="370" r="12" fill="#FF7A45"/>
+  <path d="M487 398C487 384 498 373 512 373C526 373 537 384 537 398C537 423 512 444 512 444C512 444 487 423 487 398Z" fill="#FF7A45" fill-opacity="0.18"/>
+  <path d="M512 380C505 380 499 386 499 393C499 404 512 414 512 414C512 414 525 404 525 393C525 386 519 380 512 380Z" fill="#FF7A45"/>
+  <path d="M770 262C793 262 812 281 812 304C812 319 805 333 794 342C783 351 769 355 755 353C745 350 734 343 727 334C719 323 715 311 717 298C721 275 742 262 770 262Z" fill="#FF7A45" fill-opacity="0.18"/>
+  <path d="M770 273C786 273 799 286 799 302C799 316 789 327 775 330C770 331 765 331 760 330C747 327 737 316 737 302C737 286 754 273 770 273Z" fill="#FF7A45"/>
+  <rect x="626" y="282" width="202" height="14" rx="7" fill="#353A4A"/>
+  <rect x="626" y="312" width="160" height="14" rx="7" fill="#FF7A45"/>
+  <rect x="626" y="404" width="202" height="14" rx="7" fill="#353A4A"/>
+  <rect x="626" y="434" width="120" height="14" rx="7" fill="#FF7A45"/>
+  <rect x="332" y="524" width="120" height="18" rx="9" fill="#FF7A45"/>
+  <rect x="470" y="524" width="170" height="18" rx="9" fill="#353A4A"/>
+  <rect x="660" y="524" width="180" height="18" rx="9" fill="#353A4A"/>
+  <circle cx="920" cy="180" r="30" fill="#FF7A45" fill-opacity="0.16"/>
+  <circle cx="920" cy="180" r="16" fill="#FF7A45"/>
+  <path d="M921 164C912 164 905 171 905 180C905 194 921 205 921 205C921 205 937 194 937 180C937 171 930 164 921 164Z" fill="#12141C"/>
+  <path d="M921 168C915 168 910 173 910 179C910 188 921 196 921 196C921 196 932 188 932 179C932 173 927 168 921 168Z" fill="#FF7A45"/>
+  <text x="600" y="612" fill="#F2F2F2" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700" text-anchor="middle">PCOSmart</text>
+  <text x="600" y="648" fill="#A5A8B8" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">PCOS Healthcare Platform</text>
+</svg>

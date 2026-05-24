@@ -124,6 +124,17 @@ ul { list-style: none; }
 .read-more { font-size: 0.9rem; font-weight: 600; color: var(--text-white); display: flex; align-items: center; gap: 5px; margin-top: auto;}
 .read-more:hover { color: var(--accent); }
 
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: auto;
+}
+
+.project-links .read-more {
+    margin-top: 0;
+}
+
 /* EXPERIENCE SECTION */
 .experience-section { padding: 100px 0; }
 .exp-container { display: flex; flex-direction: column; gap: 20px; max-width: 800px; margin: 0 auto 50px auto; }
