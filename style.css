@@ -8,6 +8,7 @@
     --accent: #ff5722; 
     --accent-hover: #e64a19;
     --border: #2c2c30;
+    --nav-bg: rgba(11, 11, 13, 0.9);
     --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -62,7 +63,7 @@ ul { list-style: none; }
     box-shadow: 20px 20px 0px rgba(255, 87, 34, 0.1);
 }
 
-.circle-bg { position: absolute; width: 400px; height: 400px; background: radial-gradient(circle, rgba(255,87,34,0.15) 0%, rgba(11,11,13,0) 70%); z-index: 1; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.circle-bg { position: absolute; width: 400px; height: 400px; background: radial-gradient(circle, rgba(255,87,34,0.15) 0%, transparent 70%); z-index: 1; top: 50%; left: 50%; transform: translate(-50%, -50%); }
 
 /* SECTIONS GENERAL */
 .section-title { font-size: 2.5rem; text-align: center; margin-bottom: 10px; }
@@ -83,7 +84,7 @@ ul { list-style: none; }
 .tags span { background: var(--bg-lighter); padding: 6px 12px; border-radius: 5px; font-size: 0.85rem; border: 1px solid var(--border); }
 
 /* PROJECTS SECTION */
-.projects-section { padding: 100px 0; background-color: #0f0f12; }
+.projects-section { padding: 100px 0; background-color: var(--bg-dark); }
 .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; }
 
 .project-card { 
@@ -152,7 +153,7 @@ ul { list-style: none; }
 .achievements-banner ul li strong { color: var(--text-white); }
 
 /* CONTACT SECTION */
-.contact-section { padding: 100px 0; background-color: #0f0f12; text-align: center; }
+.contact-section { padding: 100px 0; background-color: var(--bg-dark); text-align: center; }
 .contact-box { background: var(--bg-card); padding: 50px; border-radius: 20px; border: 1px solid var(--border); max-width: 700px; margin: 0 auto; }
 .contact-details { display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; margin: 30px 0; }
 .c-item { display: flex; align-items: center; gap: 10px; color: var(--text-gray); }
@@ -283,7 +284,7 @@ footer { padding: 30px; text-align: center; color: var(--text-gray); border-top:
 /* --- CODING PROFILES SECTION --- */
 .coding-section {
     padding: 80px 0;
-    background-color: #0f0f12; /* Slightly darker to separate from About */
+    background-color: var(--bg-dark); /* Slightly darker to separate from About */
 }
 
 .coding-grid {
@@ -393,3 +394,30 @@ footer { padding: 30px; text-align: center; color: var(--text-gray); border-top:
     border-color: var(--accent);
     color: white;
 }
+
+/* Light theme overrides (applied when html[data-theme="light"]) */
+html[data-theme="light"] {
+    --bg-dark: #f7f8fa;
+    --bg-card: #ffffff;
+    --bg-lighter: #f2f4f7;
+    --text-white: #0b0b0d;
+    --text-gray: #4b5563;
+    --accent: #ff5722;
+    --accent-hover: #e64a19;
+    --border: #e6e9ee;
+    --nav-bg: rgba(255,255,255,0.95);
+}
+
+/* Theme toggle button */
+.theme-toggle {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-white);
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.theme-toggle:hover { border-color: var(--accent); color: var(--accent); }
+
+.navbar { display: flex; justify-content: space-between; align-items: center; padding: 20px 5%; position: fixed; width: 100%; top: 0; background: var(--nav-bg); backdrop-filter: blur(10px); z-index: 1000; border-bottom: 1px solid var(--border); }
